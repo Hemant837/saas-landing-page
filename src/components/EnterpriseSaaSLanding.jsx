@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navigation from "../components/Navigation";
 import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeaturesSection";
+import StatsSection from "../components/StatsSection";
 
 const EnterpriseSaaSLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,6 +12,7 @@ const EnterpriseSaaSLanding = () => {
       <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <HeroSection />
       <FeaturesSection />
+      <StatsSection />
     </div>
   );
 };
