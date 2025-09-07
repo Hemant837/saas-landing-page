@@ -6,6 +6,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import StatsSection from "../components/StatsSection";
 import IntegrationsSection from "../components/IntegrationsSection";
 import DemoSection from "../components/DemoSection";
+import TestimonialsSection  from "../components/TestimonialsSection ";
 
 const EnterpriseSaaSLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ const EnterpriseSaaSLanding = () => {
       <StatsSection />
       <IntegrationsSection />
       <DemoSection />
+      <TestimonialsSection  />
     </div>
   );
 };
