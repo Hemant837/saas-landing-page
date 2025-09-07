@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import HeroSection from "../components/HeroSection";
 import FeaturesSection from "../components/FeaturesSection";
 import StatsSection from "../components/StatsSection";
+import IntegrationsSection from "../components/IntegrationsSection";
 
 const EnterpriseSaaSLanding = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ const EnterpriseSaaSLanding = () => {
       <HeroSection />
       <FeaturesSection />
       <StatsSection />
+      <IntegrationsSection />
     </div>
   );
 };
