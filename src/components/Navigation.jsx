@@ -59,9 +59,9 @@ const Navigation = ({ isMenuOpen, setIsMenuOpen }) => {
             >
               Resources
             </a>
-            <button className="text-gray-600 hover:text-gray-900 transition-colors">
+            {/* <button className="text-gray-600 hover:text-gray-900 transition-colors">
               Sign In
-            </button>
+            </button> */}
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors">
               Start Free Trial
             </button>
@@ -107,9 +107,9 @@ const Navigation = ({ isMenuOpen, setIsMenuOpen }) => {
             >
               Resources
             </a>
-            <button className="block w-full text-left text-gray-600 hover:text-gray-900">
+            {/* <button className="block w-full text-left text-gray-600 hover:text-gray-900">
               Sign In
-            </button>
+            </button> */}
             <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
               Start Free Trial
             </button>
